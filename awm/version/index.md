@@ -167,6 +167,8 @@ flowchart TB
 
 # Quelques commande utiles
 
+## Si vous êtes sur main et que vous souhaitez créer Client/ARPXXX avec les modifications apportées
+
 Les projets sont sur la branche `main` jusqu'à l'installation.
 
 Vous devez alors gérer la mise à jour éventuelle de votre projet.
@@ -230,4 +232,36 @@ gitGraph
    branch client/ARP105
    checkout client/ARP105
    commit id: "config ARP105"
+```
+
+## Si vous êtes sur main et que vous souhaitez écraser Client/ARPXXX avec les modifications apportées
+
+- Vérifier les modifications
+
+```bash
+git status
+```
+
+- Crée ou remplace la branche client/ARP105 depuis l’état actuel (y compris tes modifs locales).
+
+```bash
+git checkout -B client/ARP105
+```
+
+- Ajoute toutes les modifications.
+
+```bash
+git add .
+```
+
+- Crée le commit sur la branche `client/ARP105`.
+
+```bash
+git commit -m "Configuration machine ARP105"
+```
+
+- Écrase complètement la branche distante client/ARP105.
+
+```bash
+git push origin client/ARP105 --force
 ```
