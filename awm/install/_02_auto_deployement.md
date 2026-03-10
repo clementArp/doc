@@ -6,10 +6,10 @@
 
 Ce script automatise :
 
-✔ Installation de l'\*\*environnement Python  
-✔ Configuration MySQL  
-✔ Configuration IIS  
-✔ Création des services Windows  
+✔ Installation de l'environnement Python
+✔ Configuration MySQL
+✔ Configuration IIS
+✔ Création des services Windows
 ✔ Démarrage automatique
 
 Cette documentation explique **comment utiliser l'outil de déploiement**, mais ne détaille pas toutes les actions effectuées.
@@ -24,11 +24,8 @@ Si l'outil ne peut pas être utilisé, la documentation suivante explique **les 
 
 - [Prérequis](#-prérequis)
 - [Utilisation](#-utilisation)
-- [Actions effectuées](#-actions-effectuées)
-- [Relance du script](#-relance-du-script)
-- [Accès aux applications](#-accès-aux-applications)
-- [Dépannage](#-dépannage)
-- [Résumé](#-résumé)
+- [Lancer le script en administrateur](#2️⃣-lancer-le-script-en-administrateur)
+- [Vérifier le déploiement](#3️⃣-vérifier-le-déploiement)
 
 ---
 
@@ -168,7 +165,7 @@ AWM_COM_APPS_1 → AWM_COM_APPS_5
 AWM_COM_RECIPE_1 → AWM_COM_RECIPE_5
 ```
 
-# Tâche planifiée de nettoyage des logs
+### Tâche planifiée de nettoyage des logs
 
 Une tâche planifiée Windows est automatiquement créée lors du déploiement afin de **nettoyer les anciens logs du projet**.
 
@@ -185,7 +182,7 @@ C:\AWM\logs
 
 ---
 
-## Nom de la tâche
+### Nom de la tâche
 
 La tâche créée suit le format :
 
@@ -201,7 +198,7 @@ AWM_LogCleanup_301
 
 ---
 
-## Planification
+### Planification
 
 La tâche est configurée pour s’exécuter :
 
@@ -217,7 +214,7 @@ C:\AWM\cleanup_logs.ps1
 
 ---
 
-## Vérifier dans le planificateur de tâches
+### Vérifier dans le planificateur de tâches
 
 1. Ouvrir **Planificateur de tâches** (`taskschd.msc`)
 2. Aller dans :

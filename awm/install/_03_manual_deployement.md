@@ -4,7 +4,7 @@
 
 ⚠️ Le déploiement ne peut être effectué **qu'après l'installation des logiciels nécessaires**.
 
-💡 Le déploiement **manuel** nécessite de nombreuses actions.  
+💡 Le déploiement **manuel** nécessite de nombreuses actions.
 Il est fortement conseillé d'utiliser la **méthode automatique**.
 
 [Installation automatique AWM](_02_auto_deployement.md)
@@ -16,7 +16,7 @@ Il est fortement conseillé d'utiliser la **méthode automatique**.
 - [Prérequis](#-prérequis)
 - [Base de données](#-base-de-données)
 - [Projet](#-projet)
-- [Création de l'environnement virtuel Python](#-création-de-lenvironnement-virtuel-python)
+- [Création de l'environnement virtuel Python](#création-de-lenvironnement-virtuel-python)
 - [IIS](#-iis)
   - [Création du site AWM*RECIPE*<ID>](#création-du-site-awm_recipe_id)
   - [Mappage du handler httpPlatformHandler](#configuration-du-handler)
@@ -128,7 +128,7 @@ C:\AWM
 
 2. Modifier le fichier `web.config`
 
-Ce fichier est configuré avec les chemins `C:\AWM\`.  
+Ce fichier est configuré avec les chemins `C:\AWM\`.
 Si votre projet est sur un chemin différent, adapter les chemins dans ce fichier.
 
 3. Modifier le fichier `.env`
@@ -241,7 +241,7 @@ Deux sites seront créés :
 - `AWM<ID>_RECIPE` : port `8000 + <ID>`
 - `AWM<ID>_APPS` : port `9000 + <ID>`
 
-💡 **AWM_APPS** permet la gestion de toutes les applications (hors recettes).  
+💡 **AWM_APPS** permet la gestion de toutes les applications (hors recettes).
 💡 Les recettes sont gérées via **AWM_RECIPE**, sur un canal dédié pour une exécution indépendante.
 
 ---
@@ -497,7 +497,7 @@ Le déploiement AWM utilise **2 services Windows par COM** :
 
 L'application peut utiliser jusqu'à **5 COMs**, soit **10 services Windows**.
 
-💡 En mode automatique, les 10 services sont créés automatiquement.  
+💡 En mode automatique, les 10 services sont créés automatiquement.
 En mode manuel, la création est plus longue.
 
 Dans la majorité des cas, **1 COM suffit**, donc seulement **2 services** :
