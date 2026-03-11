@@ -1,0 +1,10 @@
+site_name: ARP Documentation
+
+theme:
+  name: material
+
+plugins:
+  - offline
+  - mermaid2
+  - search
+  - awesome-pages

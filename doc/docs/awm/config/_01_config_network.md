@@ -45,7 +45,7 @@ arp360arp360
 
 Il est possible de configurer **jusqu'à 5 communications PLC**.
 
-Pour activer une communication, cliquer sur le bouton **Connecter**  
+Pour activer une communication, cliquer sur le bouton **Connecter**
 (bleu = communication active).
 
 ![img](img/conf_4.png)
@@ -56,7 +56,7 @@ Pour activer une communication, cliquer sur le bouton **Connecter**
 
 **Nom**
 
-Nom du PLC  
+Nom du PLC
 Exemple :
 
 ```
@@ -67,7 +67,7 @@ PLC71A01
 
 Adresse IP du contrôleur.
 
-Pour **Rockwell**, utiliser l'adresse IP de la **carte réseau connectée au rack**  
+Pour **Rockwell**, utiliser l'adresse IP de la **carte réseau connectée au rack**
 (ou l'adresse IP du PLC si connecté directement sur son port).
 
 Exemple :

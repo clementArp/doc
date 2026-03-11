@@ -2,7 +2,7 @@
 
 # 🔄 Mise à jour automatique AWM
 
-💡 La mise à jour **manuelle** nécessite de nombreuses actions.  
+💡 La mise à jour **manuelle** nécessite de nombreuses actions.
 Il est donc **fortement recommandé d'utiliser la méthode automatique** lorsque cela est possible.
 
 ➡️ Si la mise à jour automatique ne peut pas être utilisée, la procédure ci‑dessous permet de réaliser la mise à jour **manuellement**.

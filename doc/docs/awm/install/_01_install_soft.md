@@ -95,7 +95,7 @@ Initialisation d'applications
 <details>
 <summary>📷 Capture écran</summary>
 
-![img](img/IIS_2.png)
+<img src="img/IIS_2.png">
 
 </details>
 

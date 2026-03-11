@@ -1,4 +1,4 @@
-[< Retour](..\index.md)
+[< Retour](../index.md)
 
 # Procédure de mise à jour d'**A**rp **W**eb **M**achine
 
@@ -9,7 +9,7 @@ Voir la section **Versionning** afin de comprendre les différentes versions du 
 - les fonctionnalités
 - la structure de la base de données
 
-Une mise à jour du projet consiste à **remplacer le code d'exécution** tout en **conservant les fichiers liés à la machine**.  
+Une mise à jour du projet consiste à **remplacer le code d'exécution** tout en **conservant les fichiers liés à la machine**.
 La base de données doit également être **adaptée aux nouveaux modèles éventuels** via des **migrations**.
 
 Vous pouvez procéder à la mise à jour du projet **AWM** à l'aide du script automatique.
