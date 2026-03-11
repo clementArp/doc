@@ -129,9 +129,7 @@ mysql-installer-community-8.0.35.0.msi
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/MYSQL_1.png)
-
+<img src="img/MYSQL_1.png">
 </details>
 
 ### Setup Type
@@ -278,8 +276,7 @@ Disable Path Limit
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/PYTHON_1.png)
+<img src="img/PYTHON_1.png">
 
 </details>
 
@@ -303,9 +300,7 @@ Windows + R
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_IUSRS_1.png)
-
+<img src="img/IIS_IUSRS_1.png">
 </details>
 
 3. Clic droit sur :
@@ -323,9 +318,7 @@ Propriétés → Sécurité → Modifier → Ajouter
 5. Cliquer sur :
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_IUSRS_4.png)
-
+<img src="img/IIS_IUSRS_4.png">
 </details>
 
 ```
@@ -335,9 +328,7 @@ Emplacements...
 6. Sélectionner l'élément le plus haut puis cliquer **OK**
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_IUSRS_5.png)
-
+<img src="img/IIS_IUSRS_5.png">
 </details>
 
 7. Dans :
@@ -355,9 +346,7 @@ IIS_IUSRS
 8. Cliquer :
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_IUSRS_6.png)
-
+<img src="img/IIS_IUSRS_6.png">
 </details>
 
 ```
@@ -427,9 +416,7 @@ Toujours demander où enregistrer les fichiers
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/GOOGLE_1.png)
-
+<img src="img/GOOGLE_1.png">
 </details>
 
 ---

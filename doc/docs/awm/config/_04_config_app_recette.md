@@ -120,9 +120,7 @@ Cette action est **strictement équivalente**.
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/conf_12.png)
-
+<img src="img/conf_12.png">
 </details>
 
 Lors de l’installation, le système demande une confirmation.
@@ -193,8 +191,7 @@ Cette action est **équivalente**.
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/conf_13.png)
+<img src="img/conf_13.png">
 
 </details>
 

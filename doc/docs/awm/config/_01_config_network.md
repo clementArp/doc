@@ -123,7 +123,7 @@ Permet la gestion des **recettes version Web**.
 <details>
 <summary>📷 Capture écran</summary>
 
-![img](img/conf_1.png)
+<img src="img/conf_1.png">
 
 </details>
 

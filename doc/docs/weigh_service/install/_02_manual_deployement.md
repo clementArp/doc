@@ -96,12 +96,10 @@ cd C:\nssm\
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/NSSM_1.jpg)
-![img](img/NSSM_2.jpg)
-![img](img/NSSM_3.jpg)
-![img](img/NSSM_4.jpg)
-
+<img src="img/NSSM_1.png">
+<img src="img/NSSM_2.png">
+<img src="img/NSSM_3.png">
+<img src="img/NSSM_4.png">
 </details>
 
 ### Onglet **Application**

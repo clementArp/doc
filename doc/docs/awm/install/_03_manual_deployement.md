@@ -64,9 +64,7 @@ ARP099 → 099
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/MYSQL_5.png)
-
+<img src="img/MYSQL_5.png">
 </details>
 
 - User : `root`
@@ -92,9 +90,7 @@ arp_web_machine_<ID>
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/MYSQL_6.png)
-
+<img src="img/MYSQL_6.png">
 </details>
 
 7. Choisir le fichier **dumps.sql** présent dans le projet de base :
@@ -107,9 +103,7 @@ AWM/Web/Db/init/dumps.sql
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/MYSQL_7.png)
-
+<img src="img/MYSQL_7.png">
 </details>
 
 9. Cliquer sur **Start Import**
@@ -253,9 +247,7 @@ Deux sites seront créés :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_3.png)
-
+<img src="img/IIS_3.png">
 </details>
 
 3. Renseigner les champs suivants :
@@ -266,9 +258,7 @@ Deux sites seront créés :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_4.png)
-
+<img src="img/IIS_4.png">
 </details>
 
 4. Déplier **Sites**, puis cliquer sur le site `AWM<ID>_RECIPE`
@@ -276,9 +266,7 @@ Deux sites seront créés :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_5.png)
-
+<img src="img/IIS_5.png">
 </details>
 
 ---
@@ -294,9 +282,7 @@ Deux sites seront créés :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_6.png)
-
+<img src="img/IIS_6.png">
 </details>
 
 Ensuite :
@@ -307,9 +293,7 @@ Ensuite :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_7.png)
-
+<img src="img/IIS_7.png">
 </details>
 
 ---
@@ -322,9 +306,7 @@ Ensuite :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_8.png)
-
+<img src="img/IIS_8.png">
 </details>
 
 - Renseigner :
@@ -333,9 +315,7 @@ Ensuite :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_9.png)
-
+<img src="img/IIS_9.png">
 </details>
 
 - Cliquer **OK**
@@ -345,9 +325,7 @@ Ensuite :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_10.png)
-
+<img src="img/IIS_10.png">
 </details>
 
 ---
@@ -372,9 +350,7 @@ Faire la même chose que pour `static` mais avec :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_11.png)
-
+<img src="img/IIS_11.png">
 </details>
 
 - Renseigner :
@@ -384,9 +360,7 @@ Faire la même chose que pour `static` mais avec :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_12.png)
-
+<img src="img/IIS_12.png">
 </details>
 
 ---
@@ -399,18 +373,14 @@ Faire la même chose que pour `static` mais avec :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_13.png)
-
+<img src="img/IIS_13.png">
 </details>
 
 - Mettre **Préchargement activé** à `True`
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_14.png)
-
+<img src="img/IIS_14.png">
 </details>
 
 ---
@@ -419,10 +389,8 @@ Faire la même chose que pour `static` mais avec :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_15.png)
-![img](img/IIS_16.png)
-
+<img src="img/IIS_15.png">
+<img src="img/IIS_16.png">
 </details>
 
 1. Créer un dossier dédié aux logs IIS :
@@ -529,13 +497,11 @@ cd C:\nssm\
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/NSSM_1.png)
-![img](img/NSSM_2.png)
-![img](img/NSSM_3.png)
-![img](img/NSSM_4.png)
-![img](img/NSSM_5.png)
-
+<img src="img/NSSM_1.png">
+<img src="img/NSSM_2.png">
+<img src="img/NSSM_3.png">
+<img src="img/NSSM_4.png">
+<img src="img/NSSM_5.png">
 </details>
 
 ### Onglet **Application**

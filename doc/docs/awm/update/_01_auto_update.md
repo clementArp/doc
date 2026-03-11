@@ -163,11 +163,9 @@ py restart_services.py
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_1.png)
-![img](img/IIS_2.png)
-![img](img/IIS_4.png)
-
+<img src="img/IIS_1.png">
+<img src="img/IIS_2.png">
+<img src="img/IIS_4.png">
 </details>
 
 1. Ouvrir le **Gestionnaire des services Internet (IIS)**

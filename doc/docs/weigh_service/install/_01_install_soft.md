@@ -72,9 +72,7 @@ Disable Path Limit
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/PYTHON_1.png)
-
+<img src="img/PYTHON_1.png">
 </details>
 
 

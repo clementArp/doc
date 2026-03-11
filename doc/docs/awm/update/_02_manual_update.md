@@ -34,10 +34,8 @@ Ces éléments contiennent des informations spécifiques à l'installation :
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/NSSM_1.png)
-![img](img/NSSM_2.png)
-
+<img src="img/NSSM_1.png">
+<img src="img/NSSM_2.png">
 </details>
 
 1. Ouvrir **Services Windows**
@@ -54,11 +52,9 @@ AWM_COM_RECIPE_1 → AWM_COM_RECIPE_5
 
 <details>
 <summary>📷 Capture écran</summary>
-
-![img](img/IIS_1.png)
-![img](img/IIS_2.png)
-![img](img/IIS_3.png)
-
+<img src="img/IIS_1.png">
+<img src="img/IIS_2.png">
+<img src="img/IIS_3.png">
 </details>
 
 1. Ouvrir le **Gestionnaire des services Internet (IIS)**
