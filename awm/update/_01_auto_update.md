@@ -39,6 +39,7 @@ Cette documentation explique **comment utiliser l'outil de mise à jour**, mais 
 - [Arrêter les services (optionel mais conseillé)](#arrêter-les-services-optionel-mais-conseillé)
 - [Vérification de la connexion internet](#-vérification-de-la-connexion-internet)
 - [Redémarrer les services (obligatoire)](#redémarrer-les-services-obligatoire)
+- [Redémarrer les serveurs IIS (obligatoire)](#redémarrer-les-serveurs-iis-obligatoire)
 
 ---
 
@@ -157,6 +158,21 @@ py restart_services.py
 ```
 
 ---
+
+# Redémarrer les serveurs IIS (obligatoire)
+
+<details>
+<summary>📷 Capture écran</summary>
+
+![img](img/IIS_1.png)
+![img](img/IIS_2.png)
+![img](img/IIS_4.png)
+
+</details>
+
+1. Ouvrir le **Gestionnaire des services Internet (IIS)**
+2. Cliquer sur l'élément **racine** en haut de l'arborescence
+3. Cliquer sur **Redémarrer**
 
 # ✅ Vérifications
 
