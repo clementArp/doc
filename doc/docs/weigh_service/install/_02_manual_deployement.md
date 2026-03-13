@@ -138,6 +138,104 @@ Restreindre la rotation aux fichiers plus gros que : 100000000
 ```
 Puis cliquer sur `Installer le service`
 
+## 🧹 Nettoyage automatique des logs
+
+Une tâche planifiée Windows doit etre créée afin de **nettoyer régulièrement les fichiers de logs**.
+
+Cette tâche parcourt le dossier :
+
+```
+C:\arp_weigh_service\logs
+```
+
+et **supprime les fichiers vieux de plus de 14 jours**.
+
+## Créer la tâche planifiée
+
+Ouvrir **Planificateur de tâches** (`taskschd.msc`)
+
+Cliquer sur **Créer une tâche…**
+
+Configurer les paramètres suivants :
+
+**Nom de la tâche**
+
+```
+AWS_LogCleanup_<ID>
+```
+
+Exemple :
+
+```
+AWS_LogCleanup_105
+```
+
+---
+
+### 3️⃣ Déclencheur
+
+Créer un déclencheur :
+
+```
+Tous les jours
+Heure : 12:00
+```
+
+---
+
+### 4️⃣ Action
+
+Configurer l'action suivante :
+
+**Programme :**
+
+```
+powershell.exe
+```
+
+**Arguments :**
+
+```
+-ExecutionPolicy Bypass -File C:\arp_weigh_service\cleanup_logs.ps1
+```
+
+---
+
+### 5️⃣ Vérification
+
+Après création, la tâche doit apparaître dans :
+
+```
+Task Scheduler Library
+```
+
+et être dans l'état :
+
+```
+Ready
+```
+
+---
+
+### 6️⃣ Test manuel
+
+Le script peut être exécuté manuellement avec :
+
+```bash
+powershell -ExecutionPolicy Bypass -File C:\arp_weigh_service\cleanup_logs.ps1
+```
+
+---
+
+### Résultat
+
+Cette tâche permet de :
+
+- éviter un remplissage du disque
+- maintenir uniquement **14 jours d'historique**
+
+
+
 ## Etape suivante
 
 Passer à la configuration du projet
